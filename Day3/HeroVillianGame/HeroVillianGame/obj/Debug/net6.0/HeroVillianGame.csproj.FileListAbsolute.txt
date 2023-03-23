@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\bin\Debug\net6.0\HeroVillianGame.exe
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\bin\Debug\net6.0\HeroVillianGame.deps.json
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\bin\Debug\net6.0\HeroVillianGame.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\bin\Debug\net6.0\HeroVillianGame.dll
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\bin\Debug\net6.0\HeroVillianGame.pdb
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.dll
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\refint\HeroVillianGame.dll
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.pdb
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\HeroVillianGame.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day3\HeroVillianGame\HeroVillianGame\obj\Debug\net6.0\ref\HeroVillianGame.dll
