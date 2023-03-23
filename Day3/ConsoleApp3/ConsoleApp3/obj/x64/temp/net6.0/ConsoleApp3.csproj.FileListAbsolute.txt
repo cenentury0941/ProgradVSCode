@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\bin\x64\temp\net6.0\ConsoleApp3.exe
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\bin\x64\temp\net6.0\ConsoleApp3.deps.json
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\bin\x64\temp\net6.0\ConsoleApp3.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\bin\x64\temp\net6.0\ConsoleApp3.dll
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\bin\x64\temp\net6.0\ConsoleApp3.pdb
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.dll
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\refint\ConsoleApp3.dll
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.pdb
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ConsoleApp3.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day3\ConsoleApp3\ConsoleApp3\obj\x64\temp\net6.0\ref\ConsoleApp3.dll
