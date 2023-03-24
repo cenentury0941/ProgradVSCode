@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\bin\Debug\net6.0\Practise.exe
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\bin\Debug\net6.0\Practise.deps.json
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\bin\Debug\net6.0\Practise.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\bin\Debug\net6.0\Practise.dll
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\bin\Debug\net6.0\Practise.pdb
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.dll
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\refint\Practise.dll
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.pdb
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\Practise.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day4\Practise\Practise\Practise\obj\Debug\net6.0\ref\Practise.dll
