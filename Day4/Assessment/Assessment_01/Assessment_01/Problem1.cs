@@ -53,6 +53,15 @@ namespace Assessment_01
                     break;
             }
 
+
+            Console.WriteLine("Enter Your Date of Birth: DD/MM/YYYY");
+            string dob = Console.ReadLine();
+            string[] date = dob.Split("/");
+            int Year = Convert.ToInt32(date[2]);
+
+            Console.WriteLine($"Your Age is {2023-Year}");
+            
+
         }
 
     }

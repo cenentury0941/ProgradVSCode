@@ -12,7 +12,7 @@ namespace Assessment_01
     {
         public static void main()
         {
-            Console.WriteLine("Hell2o");
+            Console.WriteLine("Haven't Programmed Main Function Yet. Check code of Dispenser Class :)");
         }
     }
 
@@ -145,10 +145,29 @@ namespace Assessment_01
             }
         }
 
-        public void ChangeChocolateColor()
-        { 
-        
+        public bool ChangeChocolateColor(int Count, string ColorInit , string ColorFinal)
+        {
+            Dictionary<string, int> ChocolateCounter = NoOfChocolates(false);
 
+            if (ChocolateCounter[ColorInit] < Count )
+            {
+                return false;
+            }
+
+            for ( int i = 0; i < this.Chocolates.Count ; i++ )
+            {
+                if (this.Chocolates[i].CompareTo(ColorInit) == 0 )
+                {
+                    this.Chocolates[i] = ColorFinal;
+                    Count -= 1;
+                    if ( Count <= 0 )
+                    {
+                        break;
+                    }
+                }
+            }
+
+            return true;
 
         }
 
