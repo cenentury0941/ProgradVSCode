@@ -49,6 +49,7 @@ namespace Practise
 
             Console.WriteLine("Enter A String : ");
             EnteredValue = Console.ReadLine().Trim();
+            string DuplicateValue = EnteredValue;
             if (EnteredValue.Length <= 1)
             {
                 Console.WriteLine( $"String Without ok : {EnteredValue}");
@@ -61,6 +62,19 @@ namespace Practise
                 }
                 Console.WriteLine($"String Without ok : {EnteredValue}");
             }
+
+
+            //Different Approach
+
+            while ( DuplicateValue.Contains("ok") )
+            {
+                string[] segs = DuplicateValue.Split("ok");
+                DuplicateValue = string.Join("", segs); 
+            }
+
+            Console.WriteLine($"String Without ok : {DuplicateValue}");
+
+
 
             Console.WriteLine("\n\n\n");
 
