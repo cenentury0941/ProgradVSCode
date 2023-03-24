@@ -15,7 +15,7 @@ namespace Practise
             string EnteredValue = Console.ReadLine().Trim();
             if (EnteredValue.Length <= 1)
             {
-                Console.WriteLine("String Is Too Short.");
+                Console.WriteLine($"Swapped String : {EnteredValue}");
             }
             else
             {
@@ -44,7 +44,25 @@ namespace Practise
             Console.WriteLine("\n\n\n");
 
 
+            //Write a C# Sharp program to check if a string 'ok' appears in a given string.
+            //If it appears return a string without 'ok' otherwise return the original string.
 
+            Console.WriteLine("Enter A String : ");
+            EnteredValue = Console.ReadLine().Trim();
+            if (EnteredValue.Length <= 1)
+            {
+                Console.WriteLine( $"String Without ok : {EnteredValue}");
+            }
+            else
+            {
+                while (  EnteredValue.Contains("ok") )
+                {
+                    EnteredValue = EnteredValue.Replace("ok" , "");
+                }
+                Console.WriteLine($"String Without ok : {EnteredValue}");
+            }
+
+            Console.WriteLine("\n\n\n");
 
 
         }
