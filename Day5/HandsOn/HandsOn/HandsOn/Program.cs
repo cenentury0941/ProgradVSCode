@@ -6,16 +6,21 @@
         {
             Console.WriteLine("Spairaru Matoriksu!");
 
-            //int[,] Matrix = new int[4, 4] { { 1 , 2 , 3 , 4 },
-            //                                { 5 , 6 , 7 , 8},
-            //                                { 9, 10 , 11 , 12},
-            //                                { 13 , 14 , 15 , 16} };
+            
+            int[,] Matrix1 = new int[4, 4] { { 1 , 2 , 3 , 4 },
+                                            { 5 , 6 , 7 , 8},
+                                            { 9, 10 , 11 , 12},
+                                            { 13 , 14 , 15 , 16} };
+            
 
-            int[,] Matrix = new int[3, 4] { { 1 , 2 , 3 , 4 },
+            int[,] Matrix2 = new int[3, 4] { { 1 , 2 , 3 , 4 },
                                             { 5 , 6 , 7 , 8},
                                             { 9, 10 , 11 , 12} };
 
-            printSpiralMatrix( Matrix , 3 , 4 );
+            Console.WriteLine("Matrix 1 : ");
+            printSpiralMatrix(Matrix1, 4, 4);
+            Console.WriteLine( "Matrix 2 : " );
+            printSpiralMatrix(Matrix2, 3, 4);
 
         }
 
@@ -64,6 +69,8 @@
                 Y += Y_mod;
 
             }
+
+            Console.WriteLine( "" );
         }
     }
 }
