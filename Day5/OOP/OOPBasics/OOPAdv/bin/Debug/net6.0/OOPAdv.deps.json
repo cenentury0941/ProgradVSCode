@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OOPAdv/1.0.0": {
+        "dependencies": {
+          "OOPBasics": "1.0.0"
+        },
+        "runtime": {
+          "OOPAdv.dll": {}
+        }
+      },
+      "OOPBasics/1.0.0": {
+        "runtime": {
+          "OOPBasics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OOPAdv/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OOPBasics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

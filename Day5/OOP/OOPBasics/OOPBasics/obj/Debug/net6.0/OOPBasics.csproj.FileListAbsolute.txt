@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\bin\Debug\net6.0\OOPBasics.exe
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\bin\Debug\net6.0\OOPBasics.deps.json
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\bin\Debug\net6.0\OOPBasics.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\bin\Debug\net6.0\OOPBasics.dll
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\bin\Debug\net6.0\OOPBasics.pdb
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.dll
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\refint\OOPBasics.dll
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.pdb
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\OOPBasics.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day5\OOP\OOPBasics\OOPBasics\obj\Debug\net6.0\ref\OOPBasics.dll
