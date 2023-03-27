@@ -31,6 +31,7 @@
             for (int i = 0; i < Rows * Colls; i++)
             {
                 Console.Write($"{Matrix[Y, X]} ");
+                
                 if (X == 0 && Y == 0)
                 { }
                 else if (X_mod + X > XMaxLimit)
