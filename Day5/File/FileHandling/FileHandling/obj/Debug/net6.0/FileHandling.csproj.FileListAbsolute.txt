@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.exe
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.deps.json
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.dll
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.pdb
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.dll
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\refint\FileHandling.dll
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.pdb
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day5\File\FileHandling\FileHandling\obj\Debug\net6.0\ref\FileHandling.dll

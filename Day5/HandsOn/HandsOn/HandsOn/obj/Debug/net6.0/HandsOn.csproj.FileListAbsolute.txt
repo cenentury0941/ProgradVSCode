@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\bin\Debug\net6.0\HandsOn.exe
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\bin\Debug\net6.0\HandsOn.deps.json
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\bin\Debug\net6.0\HandsOn.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\bin\Debug\net6.0\HandsOn.dll
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\bin\Debug\net6.0\HandsOn.pdb
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.dll
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\refint\HandsOn.dll
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.pdb
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\HandsOn.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day5\HandsOn\HandsOn\HandsOn\obj\Debug\net6.0\ref\HandsOn.dll
