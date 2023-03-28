@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\bin\Debug\net6.0\RotateMatrix.exe
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\bin\Debug\net6.0\RotateMatrix.deps.json
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\bin\Debug\net6.0\RotateMatrix.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\bin\Debug\net6.0\RotateMatrix.dll
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\bin\Debug\net6.0\RotateMatrix.pdb
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.dll
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\refint\RotateMatrix.dll
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.pdb
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\RotateMatrix.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day6\RotateMatrix\RotateMatrix\obj\Debug\net6.0\ref\RotateMatrix.dll
