@@ -1,0 +1,48 @@
+public int Evaluate(string expression)
+            {
+
+                string exp_without_brackets = expression.Replace("(", " ").Replace(")", " ");
+
+                int op1_neg_multiplier = 1, op2_neg_multiplier = 1, op3_neg_multiplier = 1 ;
+
+
+
+                string[] split_expression = expression.Split("-");
+
+                if (split_expression.Length == 3) // Only Subtraction Operations
+                {
+                    int op1 = Convert.ToInt32(split_expression[0]) * op1_neg_multiplier;
+                    int op2 = Convert.ToInt32(split_expression[1]) * op2_neg_multiplier;
+                    int op3 = Convert.ToInt32(split_expression[2]) * op3_neg_multiplier;
+
+                    return Sub(op1, op2, op3);
+                }
+                else if (split_expression.Length == 1) // Only Addition Operations
+                {
+                    int op1 = Convert.ToInt32(split_expression[0]);
+                    int op2 = Convert.ToInt32(split_expression[1]);
+                    int op3 = Convert.ToInt32(split_expression[2]);
+
+                    return Add(op1, op2, op3);
+                }
+                else {
+                    bool isadditionfirst = split_expression[0].Contains("+");
+                    string add_operation = isadditionfirst ? split_expression[0] : split_expression[1];
+                    string sub_operation = isadditionfirst ? split_expression[1] : split_expression[0];
+                    string[] add_operands = add_operation.Split("+");
+
+                    int op1 = Convert.ToInt32( add_operands[0] );
+                    int op2 = Convert.ToInt32( add_operands[1] );
+                    int op3 = Convert.ToInt32( sub_operation );
+
+                    if ( isadditionfirst )
+                    {
+                        return Sub(Add(op1 , op2) ,op3);
+                    }
+                    else {
+                        return Sub(op3, Add(op1, op2));
+                    }
+
+                }
+
+            }

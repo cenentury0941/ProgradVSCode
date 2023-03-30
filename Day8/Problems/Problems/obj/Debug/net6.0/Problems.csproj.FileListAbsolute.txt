@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\bin\Debug\net6.0\Problems.exe
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\bin\Debug\net6.0\Problems.deps.json
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\bin\Debug\net6.0\Problems.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\bin\Debug\net6.0\Problems.dll
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\bin\Debug\net6.0\Problems.pdb
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.dll
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\refint\Problems.dll
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.pdb
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\Problems.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day8\Problems\Problems\obj\Debug\net6.0\ref\Problems.dll
