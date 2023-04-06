@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\bin\Debug\net6.0\NicoCipher.exe
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\bin\Debug\net6.0\NicoCipher.deps.json
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\bin\Debug\net6.0\NicoCipher.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\bin\Debug\net6.0\NicoCipher.dll
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\bin\Debug\net6.0\NicoCipher.pdb
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.dll
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\refint\NicoCipher.dll
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.pdb
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\NicoCipher.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day12\NicoCipher\NicoCipher\obj\Debug\net6.0\ref\NicoCipher.dll
