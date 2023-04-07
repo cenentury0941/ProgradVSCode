@@ -1,0 +1,15 @@
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.exe
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.deps.json
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.runtimeconfig.json
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.dll
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.pdb
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.csproj.AssemblyReference.cache
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.AssemblyInfoInputs.cache
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.AssemblyInfo.cs
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.csproj.CoreCompileInputs.cache
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.dll
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\refint\Assessment3.dll
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.pdb
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.genruntimeconfig.cache
+D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\ref\Assessment3.dll
