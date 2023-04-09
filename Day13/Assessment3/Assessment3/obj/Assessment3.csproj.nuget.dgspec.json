@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TrainingStuff\\VS Projects\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj": {}
+    "D:\\Project_Buffer\\Prograd\\VSCode\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj": {}
   },
   "projects": {
-    "D:\\TrainingStuff\\VS Projects\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj": {
+    "D:\\Project_Buffer\\Prograd\\VSCode\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TrainingStuff\\VS Projects\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj",
+        "projectUniqueName": "D:\\Project_Buffer\\Prograd\\VSCode\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj",
         "projectName": "Assessment3",
-        "projectPath": "D:\\TrainingStuff\\VS Projects\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\TrainingStuff\\VS Projects\\Day13\\Assessment3\\Assessment3\\obj\\",
+        "projectPath": "D:\\Project_Buffer\\Prograd\\VSCode\\Day13\\Assessment3\\Assessment3\\Assessment3.csproj",
+        "packagesPath": "C:\\Users\\cenen\\.nuget\\packages\\",
+        "outputPath": "D:\\Project_Buffer\\Prograd\\VSCode\\Day13\\Assessment3\\Assessment3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cenen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
