@@ -11,19 +11,87 @@ namespace Assignment
             
             int n = Convert.ToInt32( Console.ReadLine() );
 
+
+            Console.WriteLine("\n\nUsing Recursion");
+
             DateTime start = DateTime.Now;
-            string[] combinations = GenerateBracketPermutations( n );
+            string[] combinations = GenerateBracketPermutations(n);
             DateTime end = DateTime.Now;
 
-            Console.WriteLine( "Bracket Combinations Possible :" );
-            foreach ( string combination in combinations )
-            { 
-                Console.WriteLine( combination );
+            Console.WriteLine("Bracket Combinations Possible :");
+            foreach (string combination in combinations)
+            {
+                Console.WriteLine(combination);
             }
 
-            Console.WriteLine( $"\nTotal Time Taken : {end-start}\n\n" );
+            Console.WriteLine($"\nTotal Time Taken : {end - start}\n\n");
+
+
+
+            Console.WriteLine("\n\nUsing Stacks");
+
+            start = DateTime.Now;
+            combinations = GenerateBracketPermutationsUsingStack(n);
+            end = DateTime.Now;
+
+            Console.WriteLine("Bracket Combinations Possible :");
+            foreach (string combination in combinations)
+            {
+                Console.WriteLine(combination);
+            }
+
+            Console.WriteLine($"\nTotal Time Taken : {end - start}\n\n");
+
+
 
         }
+
+
+        static string[] GenerateBracketPermutationsUsingStack(int n)
+        {
+            List<string> bracketPermutations = new List<string>();
+
+            for (int permutation = 0 ; permutation < Math.Pow( 2 , 2*n ); permutation++  )
+            {
+                String combination = Convert.ToString( permutation , 2 ).PadLeft( 2*n , '0' );
+                combination = combination.Replace("0", "(").Replace("1" , ")");
+                if ( IsValidCombination(combination) )
+                { 
+                    bracketPermutations.Add( combination );
+                }
+            }
+            return bracketPermutations.ToArray();
+        }
+
+        static bool IsValidCombination( string combination )
+        {
+
+            Stack<char> bracketStack = new Stack<char>();
+            foreach ( char character in combination )
+            {
+                if (character == ')')
+                {
+                    if (bracketStack.Count == 0)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        bracketStack.Pop();
+                    }
+                }
+                else { 
+                    bracketStack.Push( character );
+                }
+            }
+
+            if ( bracketStack.Count == 0 ){
+                return true; }
+            else {
+                return false; }
+
+        }
+
 
         static string[] GenerateBracketPermutations( int n )
         {
@@ -45,20 +113,16 @@ namespace Assignment
                 return;
             }
 
-            if ( remaining == 0 )
+            if ( remaining == 0 ) 
             {
                 if ( openCount == closedCount )
                 {
                     combinations.Add( current_combination );
-                    
-                    for ( int length = 1; length <= n*2; length++ )
-                    { 
-                        memory.Add( current_combination.Substring(0,length) );
-                    }
-
                 }
                 return;
             }
+            
+            memory.Add(current_combination);
 
             if ( openCount < n )
             {
@@ -70,11 +134,9 @@ namespace Assignment
                 Recurse(n, current_combination + ")", openCount, closedCount+1, remaining - 1, combinations, memory);
             }
 
-            if ( openCount < n && closedCount < n )
-            {
-                Recurse(n, current_combination + "()", openCount+1, closedCount + 1, remaining - 2, combinations, memory);
-            }
 
         }
+
+
     }
 }
