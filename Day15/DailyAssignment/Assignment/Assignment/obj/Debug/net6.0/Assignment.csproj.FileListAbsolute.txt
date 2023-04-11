@@ -1,0 +1,15 @@
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\bin\Debug\net6.0\Assignment.exe
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\bin\Debug\net6.0\Assignment.deps.json
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\bin\Debug\net6.0\Assignment.runtimeconfig.json
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\bin\Debug\net6.0\Assignment.dll
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\bin\Debug\net6.0\Assignment.pdb
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.AssemblyReference.cache
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfoInputs.cache
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfo.cs
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.CoreCompileInputs.cache
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.dll
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\refint\Assignment.dll
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.pdb
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\Assignment.genruntimeconfig.cache
+D:\Project_Buffer\Prograd\VSCode\Day15\DailyAssignment\Assignment\Assignment\obj\Debug\net6.0\ref\Assignment.dll
