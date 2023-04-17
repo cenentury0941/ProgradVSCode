@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AppointmentBookinator3000inator.props" />
+</Project>
