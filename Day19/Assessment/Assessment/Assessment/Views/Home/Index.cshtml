@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Assessment.Models.FileModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome back @UserData.name</h1>
+    </div>
+
+
+<h3>Create New File</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <table>
+            <tbody>
+            <tr><td align="center"><input name="filename" class="form-control" /></td>
+                <td align="center"><input type="submit" value="Create" class="btn btn-primary" /></td>
+            </tr>
+        </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<h3>Your Files</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.fileid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.filename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modified)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fileid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.filename)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.created)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.modified)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.fileid }) |
+                    @Html.ActionLink("View", "Details", new { id=item.fileid }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.fileid })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
