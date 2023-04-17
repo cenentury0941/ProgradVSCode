@@ -13,3 +13,18 @@ D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\refi
 D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.pdb
 D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.genruntimeconfig.cache
 D:\TrainingStuff\VS Projects\Day13\Assessment3\Assessment3\obj\Debug\net6.0\ref\Assessment3.dll
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.exe
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.deps.json
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.runtimeconfig.json
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.dll
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\bin\Debug\net6.0\Assessment3.pdb
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.csproj.AssemblyReference.cache
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.AssemblyInfoInputs.cache
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.AssemblyInfo.cs
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.csproj.CoreCompileInputs.cache
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.dll
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\refint\Assessment3.dll
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.pdb
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\Assessment3.genruntimeconfig.cache
+D:\Project_Buffer\Prograd\VSCode\Day13\Assessment3\Assessment3\obj\Debug\net6.0\ref\Assessment3.dll

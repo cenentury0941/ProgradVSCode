@@ -1,0 +1,54 @@
+﻿@page
+@model WebApplication1.Pages.Students.namesModel
+@{
+}
+
+<h3>Add Name</h3>
+
+<div>
+    <a class='btn-primary btn-sm' href="/names/createName">New Name</a>
+</div>
+
+<br>
+<br>
+
+
+<h3>Find By Designation</h3>
+
+<form href="/names/names" method="post">
+
+    <label for="Designation">Designation:</label><br>
+    <input type="text" id="Designation" name="Designation" value="Biznez"><br><br>
+
+    <label for="Date">Date:</label><br>
+    <input type="date" id="Date" name="Date" value="9999-13-31"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+<br>
+<br>
+
+
+<h1>Names:</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAMES</th>
+            <th>DESIGNATION</th>
+            <th>TS</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach( var name in Model.nameList ){
+            <tr>
+                <td>@name.Id</td>
+                <td>@name.Name</td>
+                <td>@name.Designation</td>
+                <td>@name.TS</td>
+        </tr>
+        }
+    </tbody>
+</table>

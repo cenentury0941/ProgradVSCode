@@ -1,4 +1,6 @@
-﻿namespace Assessment3
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Assessment3
 {
     internal class Program
     {
@@ -9,9 +11,11 @@
                 Console.WriteLine("College sports management system");
                 Console.WriteLine("Select Operation :");
                 Console.WriteLine("1. Create Tournament");
-                Console.WriteLine("2. Delete Tournament"); 
+                Console.WriteLine("2. Delete Tournament");
                 Console.WriteLine("3. Create Sport");
                 Console.WriteLine("4. Delete Sport");
+                Console.WriteLine("5. Add Sport to Tournament");
+                Console.WriteLine("6. Drop Sport from Tournament");
 
                 Console.Write( "\nYour Choice : " );
                 choice = Convert.ToInt32(Console.ReadLine()); ;
@@ -30,9 +34,15 @@
                     case 4:
                         SportsManagementSystem.DeleteSport();
                         break;
-                    case 69:
-                        Console.WriteLine( "Exiting..." );
+                    case 5:
+                        SportsManagementSystem.AddSport();
                         break;
+                    case 6:
+                        SportsManagementSystem.RemoveSport();
+                        break;
+                    default:
+                        Console.WriteLine( "Exiting..." );
+                        return;
                 }
 
             }
@@ -50,6 +60,7 @@
                 if ( !Directory.Exists($"{tournamentName}") )
                 {
                     Directory.CreateDirectory($"{tournamentName}");
+                    File.WriteAllText( $"{tournamentName}/Sports.txt" , "" );
                 }
                 else {
                     throw new Exception( "Tournament of same name exists!" );
@@ -117,19 +128,17 @@
             string sportName = Console.ReadLine().Trim();
             try
             {
+                List<string> sportNames = new List<string>( GetFileContents( $"Sports.txt" ) );
 
-                if (!Directory.Exists($"{sportName}"))
+                if ( sportNames.Contains(sportName) )
                 {
-                    Directory.CreateDirectory($"{sportName}");
-                }
-                else
-                {
-                    throw new Exception("Sport of same name exists!");
+                    throw new Exception("Sport of that name already exists !");
                 }
 
-                StreamWriter sports = File.AppendText("Sports.txt");
-                sports.WriteLine($"{sportName}");
-                sports.Close();
+                sportNames.Add( sportName );
+                File.WriteAllText( $"Sports.txt" , string.Join( "\n" , sportNames ) );
+                Console.WriteLine( "Sport created successfully !" );
+
             }
             catch (Exception ex)
             {
@@ -157,15 +166,6 @@
                 try
                 {
 
-                    if (Directory.Exists($"{sportName}"))
-                    {
-                        Directory.Delete($"{sportName}");
-                    }
-                    else
-                    {
-                        throw new Exception("Sport Does not exist!");
-                    }
-
                     List<string> sportList = new List<string>(sportNames);
                     sportList.Remove(sportName);
                     sportNames = sportList.ToArray();
@@ -181,6 +181,101 @@
             }
         }
 
+
+        public static void AddSport()
+        {
+            
+            try
+            {
+                Console.WriteLine("Enter name of tournament : ");
+                string tournamentName = Console.ReadLine().Trim();
+
+                if (!Directory.Exists($"{tournamentName}"))
+                {
+                    throw new Exception("Tournament Does not exist!");
+                }
+
+                Console.WriteLine("Enter name of sport : ");
+                string sportName = Console.ReadLine().Trim();
+
+                List<string> allSportNames = new List<string> ( GetFileContents( $"Sports.txt" ) );
+
+                if ( !allSportNames.Contains(sportName) )
+                {
+                    throw new Exception("Sport Does not exist!");
+                }
+
+                List<string> currentSportNames = new List<string> ( GetFileContents( $"{tournamentName}/Sports.txt" ) );
+
+                if ( currentSportNames.Contains(sportName) )
+                {
+                    throw new Exception("Sport already added!");
+                }
+
+                currentSportNames.Add(sportName);
+                File.WriteAllText( $"{tournamentName}/Sports.txt" , string.Join( "\n" , currentSportNames ) );
+
+                Console.WriteLine( "Sport successfully added!" );
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Sorry, Unable to add sport.");
+                Console.WriteLine(ex.Message);
+            }
+
+
+
+        }
+
+        public static void RemoveSport() {
+
+
+
+            try
+            {
+                Console.WriteLine("Enter name of tournament : ");
+                string tournamentName = Console.ReadLine().Trim();
+
+                if (!Directory.Exists($"{tournamentName}"))
+                {
+                    throw new Exception("Tournament Does not exist!");
+                }
+
+                Console.WriteLine("Enter name of sport : ");
+                string sportName = Console.ReadLine().Trim();
+
+                List<string> allSportNames = new List<string>(GetFileContents($"Sports.txt"));
+
+                if (!allSportNames.Contains(sportName))
+                {
+                    throw new Exception("Sport Does not exist!");
+                }
+
+                List<string> currentSportNames = new List<string>(GetFileContents($"{tournamentName}/Sports.txt"));
+
+                if (!currentSportNames.Contains(sportName))
+                {
+                    throw new Exception("Sport not in tournament!");
+                }
+
+                currentSportNames.Remove(sportName);
+                File.WriteAllText($"{tournamentName}/Sports.txt", string.Join("\n", currentSportNames));
+
+                Console.WriteLine("Sport successfully removed!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Sorry, Unable to remove sport.");
+                Console.WriteLine(ex.Message);
+            }
+
+
+
+
+
+
+
+        }
 
         public static void CreatePlayer()
         {

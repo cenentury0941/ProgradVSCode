@@ -1,0 +1,111 @@
+﻿@model IEnumerable<AppointmentBookinator3000inator.Models.AppointmentModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index">
+        
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.individual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.start)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.end)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                    <div class="form-group">
+                        <input name="id" type="text" class="form-control" />
+                    </div>
+            </td>
+            <td>
+                    <div class="form-group">
+                        <input name="title" type="text" class="form-control" />
+                    </div>
+            </td>
+            <td>
+                    <div class="form-group">
+                        <input name="individual" type="text" class="form-control" />
+                    </div>
+            </td>
+            <td>
+                    <div class="form-group">
+                        <input name="start" type="datetime" class="form-control" />
+                    </div>
+            </td>
+            <td>
+                    <div class="form-group">
+                        <input name="end" type="datetime" class="form-control" />
+                    </div>
+            </td>
+            <td>
+                    <div class="form-group">
+                        <input type="submit" value="Search" class="btn btn-primary" />
+                    </div>
+            </td>
+        </tr>
+
+
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.individual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.end)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+</form>
+
+
+
+@if( Model.Count() == 0 )
+{
+    <div class="alert-info"><h3>No Appointments</h3></div>
+}

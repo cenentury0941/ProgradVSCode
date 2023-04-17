@@ -1,0 +1,45 @@
+﻿@page
+@model WebApplication1.Pages.names.createNameModel
+@{
+}
+
+<h1>Create Name</h1>
+
+ <form href="/names/createName" method="post">
+  
+    <label for="Id">Id:</label><br>
+    <input type="text" id="Id" name="Id" value="039"><br>
+
+    <label for="Name">Name:</label><br>
+    <input type="text" id="Name" name="Name" value="Nunya"><br><br>
+
+    <label for="Designation">Designation:</label><br>
+    <input type="text" id="Designation" name="Designation" value="Biznez"><br><br>
+
+    <input type="submit" value="Submit">
+</form> 
+<br>
+
+<div id="diss">
+    @if (Model.errMessage == null )
+    { }
+    else @if (Model.errMessage == "0") {
+        <div class='alert-info'>Success
+        </div>
+        <div class='btn-close' onclick="document.getElementById('diss').remove()">
+        </div>
+
+    }
+    else
+    {
+        <div class='alert-danger'>
+            @Model.errMessage
+        </div>
+        <div class='btn-close' onclick="document.getElementById('diss').remove()">
+        </div>
+
+    }
+
+</div>
+
+
