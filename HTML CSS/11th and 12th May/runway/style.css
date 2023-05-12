@@ -1,0 +1,144 @@
+body {
+background-image : url("res/runway.png");
+}
+
+.grid-container-train {
+  display: grid;
+grid-auto-flow: column;
+  grid-template-columns: auto auto auto;
+  background-color: #00000000;
+  padding: 10px;
+  width:900px;
+  transform: translateY(-35%) translateX(150%);
+  border: 0px solid #00000000;
+
+  animation-name: MoveTrain;
+  animation-duration: 50s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #00000000;
+  padding: 10px;
+  margin: 110px 0px 0px 0px;
+  width:5200px;
+  transform: translateX(20%);
+
+  animation-name: MovePlanes;
+  animation-duration: 100s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes MovePlanes {
+0% { transform: translateX(20%) }
+10% { transform: translateX(-30%) }
+15% { transform: translateX(-30%) }
+25% { transform: translateX(-15%) }
+30% { transform: translateX(-15%) }
+40% { transform: translateX(-65%) }
+45% { transform: translateX(-65%) }
+55% { transform: translateX(-50%) }
+60% { transform: translateX(-50%) }
+70% { transform: translateX(-100%) }
+
+74% { opacity : 1 }
+75% { transform: translateX(-100%); opacity:0 }
+76% { transform: translateX(30%); opacity: 0}
+90% { transform: translateX(20%); opacity: 1 }
+100%{ transform: translateX(20%) }
+
+}
+
+
+@keyframes MoveTrain {
+
+0%, 25%, 100% 78% { transform: translateY(-35%) translateX(150%); }
+76% { transform: translateY(-35%) translateX(-550%); }
+76% {opacity:1}
+77% {opacity:0}
+80% {opacity:1}
+}
+
+
+
+
+
+@keyframes RotatePlane2 {
+0% 100%, 9% , { transform: rotateZ(-90deg) }
+10% { transform: rotateZ(-90deg) }
+15% { transform: rotateZ(90deg) }
+25% { transform: rotateZ(90deg) }
+30% { transform: rotateZ(-90deg) }
+}
+
+@keyframes RotatePlane3 {
+0% 100%, 39% , { transform: rotateZ(-90deg) }
+40% { transform: rotateZ(-90deg) }
+45% { transform: rotateZ(90deg) }
+55% { transform: rotateZ(90deg) }
+60% { transform: rotateZ(-90deg) }
+}
+
+@keyframes RotatePlane1 {
+0% 100%, 9% , { transform: rotateZ(-90deg) }
+10% { transform: rotateZ(-90deg) }
+15% { transform: rotateZ(90deg) }
+40% { transform: rotateZ(90deg) }
+65% { transform: rotateZ(90deg) }
+}
+
+.grid-item {
+  background-color: #00000000;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #00000000;
+  width: 256px;
+  border: 3px solid #00000000;
+}
+
+.train
+{
+height:50px;
+width:120px;
+}
+
+.grid-item:hover {
+  background-color: #000000AA;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #FF0000;
+}
+
+.plane1
+{
+transform : rotateZ(-90deg);
+}
+
+
+.plane2
+{
+  transform : rotateZ(-90deg);
+  animation-name: RotatePlane2;
+  animation-duration: 100s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+.plane3
+{
+transform : rotateZ(-90deg);  
+animation-name: RotatePlane3;
+  animation-duration: 100s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

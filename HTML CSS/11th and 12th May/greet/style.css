@@ -1,0 +1,178 @@
+body {
+background : #101010;
+}
+
+.flex-container {
+  display: flex;
+justify-content: space-between; 
+}
+
+.Heading {
+ font-size: 64px;
+ font-family: "Lucida Sans Unicode";
+}
+
+.Text{
+ font-size: 20px;
+ font-family: "Lucida Sans Unicode";
+ color: white;
+  position: absolute;
+  top: 390px;
+  left: 16px;
+  text-align: left;
+  width: 700px;
+}
+
+.Text2{
+ font-size: 24px;
+ font-family: "Lucida Sans Unicode";
+ color: white;
+ padding: 39px;
+  position: absolute;
+  bottom: 39px;
+  left: 16px;
+  text-align: center;
+  width: 1250px;
+  text-shadow: 0px 0px 10px #FF0000;
+  background: #000000DD;
+}
+
+
+.BlueGlow{
+  
+
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
+  text-shadow: 0px 0px 39px #70e3ff;
+
+}
+
+.textGrad{
+
+  background: #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
+}
+
+.textGradS{
+
+  background: #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.text_container{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.text_container2{
+  position: absolute;
+  top: 4px;
+  left: 16px;
+}
+
+.about_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.about_image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@keyframes glow
+{
+from { opacity : 0;   top: 128px; }
+to { opacity : 1;   top: 150px;}
+}
+
+@keyframes move
+{
+from { top: 128px; }
+to { top: 150px;}
+}
+
+@keyframes move2
+{
+from { top: 200px;   transform: rotateZ(1deg);}
+to { top: 210px;  transform: rotateZ(-1deg);}
+}
+
+@keyframes scale
+{
+from { 
+box-shadow: 0px 0px 10px 5px #AAAAAA; }
+to { 
+box-shadow: 0px 0px 10px 5px #FFFFFF; }
+}
+
+.events{
+  position: relative;
+height: 768px;
+width: 1366px;
+top:768px;
+background-image: url("res/mm.jpg");
+}
+
+.event{
+position: relative;
+height: 250px;
+width: 350px;
+top: 300px;
+background: #101010;
+
+  animation-name: move2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+
+}
+
+.event1{
+left: 100px;
+background-image: url("res/con1.jpg");
+box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.event1:hover{
+  animation-name: move2, scale;
+}
+
+
+.event2{
+left: 0px;
+background-image: url("res/con2.jpg");
+box-shadow: 0px 0px 10px 5px #000000;
+}
+.event2:hover{
+  animation-name: move2, scale;
+}
+
+.event3{
+right: 100px;
+background-image: url("res/con3.jpg");
+box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.event3:hover{
+  animation-name: move2, scale;
+}
